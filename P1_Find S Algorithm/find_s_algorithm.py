@@ -1,7 +1,7 @@
 import csv
 
 a = []
-with open('Poisonous.csv', 'r') as csvfile:
+with open('training_data.csv', 'r') as csvfile:
     for row in csv.reader(csvfile):
         a.append(row)
 
